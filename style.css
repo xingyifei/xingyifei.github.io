@@ -25,13 +25,17 @@ body {
   width: 100%;
 }
 .title {
-  margin: 200px auto 0 auto;
   height: 60px;
-  width: 220px;
+  text-align: center;
+  position: fixed;
+  left: 42%;
+  bottom: 40%;
 }
 .title p {
   height: 100%;
-  width: 100%;
+  width: 220px;
+  display: inline-block;
+  margin: 0;
   cursor: pointer;
   background-image: url(images/1522390715679779.png);
 }
