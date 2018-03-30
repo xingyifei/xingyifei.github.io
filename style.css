@@ -10,7 +10,28 @@ body {
 }
 #main {
   height: 100%;
+  overflow: hidden;
   width: 100%;
   background-image: url(images/ChMkJlcY5TmIN1JsAAbpMorQ6EcAAQWxQH9s0MABulK271.png);
   background-size: cover;
+}
+.slider {
+  height: 220px;
+  width: 250px;
+  margin: 50px auto 0 auto;
+}
+.slider img {
+  height: 100%;
+  width: 100%;
+}
+.title {
+  margin: 200px auto 0 auto;
+  height: 60px;
+  width: 220px;
+}
+.title p {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  background-image: url(images/1522390715679779.png);
 }
