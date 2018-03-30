@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/ChMkJlcY5TmIN1JsAAbpMorQ6EcAAQWxQH9s0MABulK271.png);
+  background-size: cover;
+}
