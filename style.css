@@ -18,7 +18,7 @@ body {
 .slider {
   height: 220px;
   width: 250px;
-  margin: 50px auto 0 auto;
+  margin: 5% auto 0 auto;
 }
 .slider img {
   height: 100%;
@@ -28,7 +28,7 @@ body {
   height: 60px;
   text-align: center;
   position: fixed;
-  left: 42%;
+  left: 41.5%;
   bottom: 40%;
 }
 .title p {
