@@ -37,5 +37,10 @@ body {
   display: inline-block;
   margin: 0;
   cursor: pointer;
+  transition: all .5s;
   background-image: url(images/1522390715679779.png);
+}
+.content {
+  transition: all .5s; 
+  transform: rotateY(-90deg);
 }

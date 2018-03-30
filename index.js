@@ -9,6 +9,7 @@ function Main() {
   // 初始函数
   Main.prototype.init = function() {
     setInterval(this.slider.bind(this), this.time)
+    $('.title p').click(this.transA)
   }
   
   // 轮播函数
@@ -19,4 +20,9 @@ function Main() {
     $('.slider').find('img').eq(this.count).fadeIn(1000)
   }
   
+  // 主翻页
+  Main.prototype.transA = function() {
+    $(this).css({'transform': 'rotateY(90deg)'})
+    $('.content').css({'transform': 'rotateY(0deg)'})
+  }
 }
