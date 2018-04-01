@@ -10,6 +10,7 @@ function Main() {
   Main.prototype.init = function() {
     setInterval(this.slider.bind(this), this.time)
     $('.title p').click(this.transA)
+    $('.push').click(this.handleClick)
   }
   
   // 轮播函数
@@ -22,7 +23,16 @@ function Main() {
   
   // 主翻页
   Main.prototype.transA = function() {
-    $(this).css({'transform': 'rotateY(90deg)'})
-    $('.content').css({'transform': 'rotateY(0deg)'})
+    $("section[name='logo'] p").css({'transform': 'rotateY(90deg)'})
+    setTimeout(function() {
+      $("section[name='logo']").css({'display': 'none'})
+      $('.content').css({'transform': 'rotateY(0deg)'})
+    }, 400)
   }
+  
+  // 跳转
+  Main.prototype.handleClick = function() {
+    window.location = 'https://github.com/xingyifei'
+  }
+  
 }
