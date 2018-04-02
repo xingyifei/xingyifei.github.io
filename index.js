@@ -1,5 +1,5 @@
 ﻿function Main() {
-  
+  console.log(1);
   // 轮播时间
   Main.prototype.time = 3500
   
