@@ -33,7 +33,7 @@
   // 跳转
   Main.prototype.handleClick = function() {
     window.location = 'https://github.com/xingyifei'
-	console.log(1)
+	console.log('xingyifei')
   }
   
 }
