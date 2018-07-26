@@ -1,5 +1,4 @@
 ﻿function Main() {
-  console.log(1);
   // 轮播时间
   Main.prototype.time = 3500
   
@@ -33,7 +32,6 @@
   // 跳转
   Main.prototype.handleClick = function() {
     window.location = 'https://github.com/xingyifei'
-	console.log('090909')
   }
   
 }
