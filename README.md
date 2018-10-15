@@ -1,1 +1,1 @@
- https://xingyifei.github.io/Xingyifei
+ https://xingyifei.top
