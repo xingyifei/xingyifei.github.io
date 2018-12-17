@@ -10,8 +10,14 @@
     setInterval(this.slider.bind(this), this.time)
     $('.title p').click(this.transA)
     $('.push').click(this.handleClick)
+    $('.myarticle').click(this.onArtilcleClick)
   }
   
+  // 跳转到个人博客
+  Main.prototype.onArtilcleClick = function() {
+    window.location.href = window.location.pathname.replace('index', 'article')
+  }
+
   // 轮播函数
   Main.prototype.slider = function() {
     this.count === ($('.slider').find('img').length - 1) && (this.count = -1)

@@ -15,6 +15,45 @@ body {
   background-image: url(images/ChMkJlcY5TmIN1JsAAbpMorQ6EcAAQWxQH9s0MABulK271.png);
   background-size: cover;
 }
+.articleMain {
+  width: 800px;
+  margin: auto;
+  padding: 20px 0;
+}
+.articleItem {
+  margin-top: 30px;
+}
+.articleItem .fromWord {
+  font-size: 12px;
+  color: #b38464;
+}
+.articleItem .articleTitle {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: gray;
+}
+.articleItem .context {
+  font-size: 15px;
+  color: #000000ab;
+  letter-spacing: 2px;
+  word-break: break-word;
+  margin: 20px 0px;
+  text-indent: 15px;
+  padding-left: 5px;
+  border-left: solid 4px #a9a531;
+}
+.myarticle {
+  position: absolute;
+  top: 20px;
+  width: 100px;
+  right: 150px;
+  cursor: pointer;
+  border: solid 1px black;
+  border-radius: 6px;
+  text-align: center;  
+}
 .push {
   position: absolute;
   top: 20px;
@@ -24,6 +63,15 @@ body {
   border: solid 1px black;
   border-radius: 6px;
   text-align: center;
+}
+.myarticle >svg {
+  vertical-align: middle;
+}
+.myarticle >span {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  vertical-align: middle;
 }
 .push >svg {
   vertical-align: middle;
