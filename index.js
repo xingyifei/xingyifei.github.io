@@ -15,7 +15,7 @@
   
   // 跳转到个人博客
   Main.prototype.onArtilcleClick = function() {
-    window.location.href = window.location.pathname.replace('index', 'article')
+    window.location.href = 'https://xingyifei.top/article.html'
   }
 
   // 轮播函数
