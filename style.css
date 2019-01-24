@@ -8,6 +8,28 @@ body {
   height: 100%;
   width: 100%;
 }
+#main-article {
+  width: 100%;
+  min-height: 100%;
+  background-image: url(images/ChMkJlcY5TmIN1JsAAbpMorQ6EcAAQWxQH9s0MABulK271.png);
+  background-size: cover;
+}
+#main-article footer {
+  display: block;
+  height: 25px;
+  background-color: rgba(77, 152, 152, 0.7);
+  width: 100vw;
+  padding: 0 20px;
+  position: fixed;
+  bottom: 0;
+}
+#main-article footer .slider-word {
+  line-height: 20px;
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
 #main {
   height: 100%;
   overflow: hidden;
@@ -18,14 +40,15 @@ body {
 .articleMain {
   width: 800px;
   margin: auto;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 .articleItem {
-  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .articleItem .fromWord {
   font-size: 12px;
-  color: #b38464;
+  color: #0669f1;
+  font-weight: bold;
 }
 .articleItem .articleTitle {
     height: 50px;
@@ -33,6 +56,16 @@ body {
     font-weight: bold;
     letter-spacing: 5px;
     color: gray;
+}
+.articleItem .context-img {
+  margin: 20px 0px;
+  text-indent: 35px;
+  padding-left: 5px;
+  overflow: hidden;
+  height: 300px;
+}
+.articleItem .context-img img {
+  height: 100%;
 }
 .articleItem .context {
   font-size: 15px;
@@ -52,7 +85,7 @@ body {
   cursor: pointer;
   border: solid 1px black;
   border-radius: 6px;
-  text-align: center;  
+  text-align: center;
 }
 .push {
   position: absolute;
@@ -115,7 +148,7 @@ body {
   width: 220px;
   padding-left: 30px;
   display: inline-block;
-  transition: all .5s; 
+  transition: all .5s;
   cursor: not-allowed;
   transform: rotateY(-90deg);
 }
