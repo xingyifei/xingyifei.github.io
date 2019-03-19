@@ -11,8 +11,7 @@ body {
 #main-article {
   width: 100%;
   min-height: 100%;
-  background-image: url(images/ChMkJlcY5TmIN1JsAAbpMorQ6EcAAQWxQH9s0MABulK271.png);
-  background-size: cover;
+  background-image: url(images/skulls.png);
 }
 #main-article footer {
   display: block;
