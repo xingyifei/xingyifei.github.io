@@ -1,4 +1,10 @@
-define('dataSource', function() {
+/**
+ * @file 数据配置文件
+ * @author xingyifei01
+ * @date 2019-03
+ */
+
+define('dataSource', function () {
     var dataSource = {
         articleData: {
             dataList: [
@@ -21,7 +27,7 @@ define('dataSource', function() {
                         '新年快到了，忙碌的心总是期盼着安逸的假期，春节早已添加了一大堆购物车清单准备大吃一顿。',
                         '公司昨天开了年会，很荣幸的抽中了一个小礼品，2019继续加油!',
                         '1548320636225.png'
-                    ],
+                    ]
                 },
                 {
                     title: '故宫游记',
@@ -37,6 +43,6 @@ define('dataSource', function() {
         sliderData: {
             welcomeWord: '明年岂无年，心事恐蹉跎。努力尽今夕，少年犹可夸'
         }
-    }
-    return dataSource
-})
+    };
+    return dataSource;
+});
