@@ -55,10 +55,10 @@ function Article() {
         // 回位值
         var backLeft = $('.slider-word').width() + 20;
         // 先填充内容
-        $('.slider-word').text(this.dataSource.sliderData.welcomeWord)
+        $('.slider-word').text(this.dataSource.sliderData.welcomeWord);
         // 开始滑动
         if (notFirst) {
-            $('.slider-word').css({'margin-left': -backLeft + 'px'})
+            $('.slider-word').css({'margin-left': -backLeft + 'px'});
         }
         $('.slider-word').animate({'margin-left': maxLength + 'px'}, 40000, 'linear', function () {
             self.setBotDom(true);
