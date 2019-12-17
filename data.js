@@ -37,6 +37,13 @@ define('dataSource', function () {
                         'gugong.png',
                         '故宫虽然经历了多年的洗礼，但是进入时还是能感受到当年的宏伟。'
                     ]
+                },
+                {
+                    title: '2019年总结',
+                    fromWord: '一年又一年',
+                    context: [
+                        '额。。有时间再细写'
+                    ]
                 }
             ]
         },
