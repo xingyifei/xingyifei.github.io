@@ -18,6 +18,18 @@ function Main() {
         $('.title p').click(this.transA);
         $('.push').click(this.handleClick);
         $('.myarticle').click(this.onArtilcleClick);
+        require(['tools'], function (data) {
+            // 埋点
+            $.ajax({
+                url: 'http://116.62.7.205:80/collect',
+                type: 'POST',
+                data: {
+                    browser: data.getBrowserInfo(),
+                    system: data.getOsInfo(),
+                    time: data.getTime()
+                }
+            });
+        });
     };
 
     // 跳转到个人博客
