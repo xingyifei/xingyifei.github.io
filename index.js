@@ -21,7 +21,7 @@ function Main() {
         require(['tools'], function (data) {
             // 埋点
             $.ajax({
-                url: 'http://116.62.7.205:80/collect',
+                url: 'https://116.62.7.205:80/collect',
                 type: 'POST',
                 data: {
                     browser: data.getBrowserInfo(),
